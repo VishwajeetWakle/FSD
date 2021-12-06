@@ -1,0 +1,10 @@
+Differnace between ArrayList & LinkedList
+
+			ArrayList				LinkedList
+
+1. Impliments		List				List, Dqeue, Queue
+2. Data Structure	Array Data Structure		Doubly Linked List
+3. Index		Based On Index			Not based on index, but methods for index
+4. Performance		Slower for modification		Faster for modification
+			Faster for iteration		Slower for iteration
+5. Access		Random access is possible	Random access is not possible

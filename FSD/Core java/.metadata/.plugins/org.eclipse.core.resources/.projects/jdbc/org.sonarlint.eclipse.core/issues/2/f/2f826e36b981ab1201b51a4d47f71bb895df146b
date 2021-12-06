@@ -1,0 +1,17 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Ğ±Èí8¶Ã§ÔÌ/H¿	RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(°Ùò»8¶Ã§ÔÌ/HÅ	RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(—ùªûÿÿÿÿ8¶Ã§ÔÌ/HÃ	RMAJORZ
+CODE_SMELL
+€
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ãøÙÓÿÿÿÿÿ8¶Ã§ÔÌ/HÆ	RBLOCKERZBUG
+ˆ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Êôüüÿÿÿÿ8¶Ã§ÔÌ/HÀ	RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Ñğ¤èúÿÿÿÿ8¶Ã§ÔÌ/HÂ	RMAJORZ
+CODE_SMELL
+v
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ë¿ğû8¸ÔÌ/HÁ	RBLOCKERZBUG
+}
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¡“ëÄ8¶Ã§ÔÌ/HÄ	RBLOCKERZBUG

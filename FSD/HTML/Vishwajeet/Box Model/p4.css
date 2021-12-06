@@ -1,0 +1,27 @@
+#main {
+  width: 900px;
+  height: 600px;
+  border: 5px solid black;
+  margin: 10px;
+}
+#first {
+  width: 850px;
+  height: 50px;
+  border: 5px solid black;
+  margin: 10px;
+}
+#second {
+  width: 850px;
+  height: 550px;
+  margin: 10px;
+}
+#second1 {
+  width: 180px;
+  height: 190px;
+  margin: 10px;
+  float: left;
+}
+#second1 video {
+  width: 180px;
+  height: 190px;
+}

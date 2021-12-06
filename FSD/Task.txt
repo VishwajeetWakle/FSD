@@ -1,0 +1,45 @@
+1. What is exception handling ?
+ans. 
+	Exception handling is a way to handle the unwanted scenarios to avoid
+	abnormal termination of the program and provide the alternative way
+	if any exception comes inside program
+
+2. Difference between exception and error ?
+ans.
+		Exception				Error
+
+   Exception are recoverable			Errors are non-recoverable
+
+   Exceptions are mostly occurring due to	Errors are mostly occurring due to
+   logical problem into program.		system issue.
+
+   By handling exception, you can continue	Error can be handled but you cannot 
+   execution of the program.			continue the execution of program.
+
+
+3.Differance between checked exception and unchecked exception ?
+ans.
+		Checked Exeption			Unchecked Exeption
+
+  It is an exception which has to handle 	It is an exception for which handling 
+  at the time of coding else java compiler	can be skip.
+
+  will not allow use to compile the program.
+  Here java compiler will strictly check 	Here java complier will not restrict you
+  where checked exception is handle or not.	to handle this exception.
+
+  There is very less or no chances of 		There is chances of abnormal termination
+  abnormal termination of the program.		of the program when the exception occur.
+
+  Examples IOException, SqlExceptin.		Examples ArithmaticException.
+
+
+4. Difference between throw amd throws ?
+ans.
+
+		Throw					Throws
+
+   To throw exception manually from the		To populate the exception at method level.
+   statement level.
+
+   

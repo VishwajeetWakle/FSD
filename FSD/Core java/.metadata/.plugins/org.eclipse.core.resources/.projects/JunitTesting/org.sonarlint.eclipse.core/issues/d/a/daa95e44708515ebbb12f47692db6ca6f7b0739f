@@ -1,0 +1,20 @@
+
+Œ
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(âè¨ùÿÿÿÿ8êşøµË/H‰RMINORZ
+CODE_SMELL
+V
+java:S5960"+Remove this assertion from production code.(ïèÜA8êşøµË/HRMAJORZBUG
+F
+java:S1220""Move this file to a named package.H…RMINORZ
+CODE_SMELL
+€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¬•Ú8Ù…¶Ë/HœRMINORZ
+CODE_SMELL
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã•ç)8©½€¶Ë/H•RMINORZ
+CODE_SMELL
+‡
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(—¦¹î8êşøµË/H‹RMINORZ
+CODE_SMELL
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¸üÖøÿÿÿÿ8êşøµË/HˆRMINORZ
+CODE_SMELL
+…	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´Âùİûÿÿÿÿ8ìµŒ¶Ë/H¤RMINORZ
+CODE_SMELL

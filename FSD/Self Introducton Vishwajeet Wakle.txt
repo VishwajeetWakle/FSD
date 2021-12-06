@@ -1,0 +1,14 @@
+Self Introduction
+
+	Hello, Thank you to giving me this apportunity
+	yo introduce my self.
+	My name is vishwajeet navnath wakle,
+	I have recently completed my  graduagte from 
+	Dr. Babasaheb Ambedkar Marathwada University, Aurangabad
+	with 7.76 CGPA.
+	I have basic knowledge of core java with good OOP's concept.
+	My current goal is get a job that's help me to improving my
+	skills in software engineering I want to perform more tasks 
+	that I'll aquaring more knowledge about it.
+	
+				Thank you !

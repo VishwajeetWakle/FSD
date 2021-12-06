@@ -1,0 +1,7 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Â˜èÛ8¸úÉ¾Ì/HÖ	RMAJORZ
+CODE_SMELL
+‚
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÙÒŸèøÿÿÿÿ8¸úÉ¾Ì/HØ	RBLOCKERZBUG
+{
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(Öù¹Õúÿÿÿÿ8¸úÉ¾Ì/H×	RBLOCKERZBUG

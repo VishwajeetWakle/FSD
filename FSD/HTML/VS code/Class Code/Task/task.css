@@ -1,0 +1,16 @@
+header {
+  position: relative;
+}
+p {
+  color: blue;
+  position: relative;
+}
+img {
+  position: fixed;
+}
+footer {
+  position: fixed;
+  width: 100%;
+  align: center;
+}
+

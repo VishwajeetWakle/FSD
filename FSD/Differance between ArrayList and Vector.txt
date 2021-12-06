@@ -1,0 +1,7 @@
+Differance between ArrayList and Vector
+
+		ArrayList 		Vector
+1. 					Synchronized
+2. 	Faster Than vector		Slower than ArrayList
+3.	Not a Legacy Class		Legacy Class
+4.					Thread safe	

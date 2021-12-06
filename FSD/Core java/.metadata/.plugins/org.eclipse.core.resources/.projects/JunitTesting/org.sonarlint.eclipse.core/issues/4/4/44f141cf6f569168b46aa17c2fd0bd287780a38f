@@ -1,0 +1,20 @@
+
+W
+java:S5960"+Remove this assertion from production code.(΅ÿφ8αμε¶Λ/HΐRMAJORZBUG
+F
+java:S1220""Move this file to a named package.HΗRMINORZ
+CODE_SMELL
+…	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Π¨Σωÿÿÿÿ8αμε¶Λ/HΘRMINORZ
+CODE_SMELL
+€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(οΖ8αμε¶Λ/HΙRMINORZ
+CODE_SMELL
+…	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Ρμ‚ώÿÿÿÿ8αμε¶Λ/HΚRMINORZ
+CODE_SMELL
+€	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«…Α8αμε¶Λ/HΛRMINORZ
+CODE_SMELL
+€	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ρδ²θ8αμε¶Λ/HΜRMINORZ
+CODE_SMELL
+…	java:S1008"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ψ©Ϊÿÿÿÿÿ8αμε¶Λ/HΝRMINORZ
+CODE_SMELL
+€	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(τϊ„ÿ8αμε¶Λ/HΞRMINORZ
+CODE_SMELL

@@ -1,8 +1,5 @@
 package org.institute.controller;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
 import org.institute.entity.InqueryEntity;
@@ -44,23 +41,30 @@ public class InqController {
 	public  List<InqueryEntity> getByCity(@Param("city") String city) {
 		return inqRepository.findByCity(city);
 	}
+	@GetMapping("/inq/get-by-date")
+	public List<InqueryEntity> getByDate(@Param("date") String date) {
+		return inqRepository.findByInqDate(date);
+	}
+	
 	
 	@GetMapping("/inq/get-between-date")
-	public  List<InqueryEntity> getByDateBetween(@Param("start") String startDate, @Param("end") String endDate) {
+	public  List<InqueryEntity> getByDateBetween(@Param("startDate") String startDate, @Param("end") String endDate) {
 
-		System.out.println("Start date from user "+startDate);
-		System.out.println("End Date from user "+endDate);
-		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
-		try {
-				Date start = format.parse(startDate);
-				Date end = format.parse(endDate);
-				System.out.println("Start date from user "+start);
-				System.out.println("End Date from user "+end);
-				return inqRepository.findByInqDateBetween(start, end);
-		} catch(ParseException e) {
-			e.printStackTrace();
-			return null;
-		}
+				return inqRepository.findByInqDateBetween(startDate, endDate);
 	}
-		
+	
+	@GetMapping("/inq/get-by-month")
+	public  List<InqueryEntity> getByMonth(@Param("month") int month){
+		return inqRepository.findByMonth(month);
+	}
+	
+	@GetMapping("/inq/get-by-year")
+	public  List<InqueryEntity> getByYear(@Param("year") int year){
+		return inqRepository.findByYear(year);
+	}
+	
+	@GetMapping("/inq/get-by-monthyear")
+	public  List<InqueryEntity> getByMonthYear(@Param("month") int month,@Param("year") int year){
+		return inqRepository.findByMonthYear(month,year);
+	}
 }

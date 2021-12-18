@@ -25,7 +25,7 @@ public class ResultMusicalController extends HttpServlet {
 		
 		List<Source> details = model.getAll(search);
 		if(details.isEmpty()) {
-			response.sendRedirect("searchmusical.jsp");
+			response.sendRedirect("searchmusical.jsp?code=160");
 		}else {
 		
 		request.setAttribute("search", search);

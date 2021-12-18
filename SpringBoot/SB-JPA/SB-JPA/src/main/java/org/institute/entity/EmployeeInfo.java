@@ -2,17 +2,20 @@ package org.institute.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table
-public class EmployeeInfo {
+@Table(name = "emp_details")
+public class EmployeeInfo{
 
 	@Id
 	private long id;
 	private String name;
 	private String contact;
 	private String email;
+	@OneToOne
+	private Address address;
 	public long getId() {
 		return id;
 	}
